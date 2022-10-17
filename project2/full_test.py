@@ -28,7 +28,7 @@ def city_sentiment(city):
         print("People feel positive about"+city,end='.')
 
     else:
-        print("People feel positive about" + city, end='.')
+        print("People feel positive about " + city, end='.')
     print('The sentiment score is ' + str("%.2f" % sco))
 
 city_sentiment('Boston')
